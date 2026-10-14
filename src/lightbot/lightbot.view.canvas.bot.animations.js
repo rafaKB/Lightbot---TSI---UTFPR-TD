@@ -14,8 +14,8 @@ export function createBotAnimations() {
     walk: {
       name: 'walk',
       loop: true,
-      totalFrames: 3,
-      step: 5,
+      totalFrames: 8,
+      step: 2.5,
       duration: 20,
       width: 80,
       height: 100,
@@ -24,12 +24,12 @@ export function createBotAnimations() {
     light: {
       name: 'light',
       loop: true,
-      totalFrames: 2,
-      step: 3,
-      duration: 20,
+      totalFrames: 14,
+      step: 2,
+      duration: 28,
       width: 80,
       height: 100,
-      sX: 480
+      sX: 880
     },
     jumpUp: {
       name: 'jumpUp',
@@ -39,7 +39,7 @@ export function createBotAnimations() {
       duration: 15,
       width: 80,
       height: 100,
-      sX: 320
+      sX: 720
     },
     jumpDown: {
       name: 'jumpDown',
@@ -49,7 +49,7 @@ export function createBotAnimations() {
       duration: 15,
       width: 80,
       height: 100,
-      sX: 400
+      sX: 800
     }
   };
   return animations;
